@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-container">
+      <h1>Contact Us</h1>
+      <form action="contact.php" method="POST">
+        <div class="form-input">
+          <input type="text" id="name" name="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="form-input">
+          <input type="email" id="email" name="email" required>
+          <label for="email">Your Email</label>
+        </div>
+        <div class="form-input">
+          <input type="tel" id="phone" name="phone" required>
+          <label for="phone">Phone Number</label>
+        </div>
+        <div class="form-input">
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
